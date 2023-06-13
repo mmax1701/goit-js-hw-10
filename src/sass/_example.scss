@@ -26,3 +26,27 @@
   background-size: cover;
   background-position: center;
 }
+
+.cat-info.example {
+  display: flex;
+    align-items: center;
+}
+
+.cat-info.example img {
+width: 540px;
+  float: left;
+  margin-right: 16px;
+}
+
+.cat-info.example p {
+  margin-top: 0;
+}
+
+.cat-info.example .cat-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cat-info.example .temperament {
+  font-weight: bold;
+}
